@@ -16,3 +16,9 @@ SOLO发表于ECCV 2020，作者也同样是上述五位研究者。
    3. 不仅在实例分割上得到应用，还能够用于目标监测、全景分割和抠图。
 
 2. SOLOv2创新点
+
+## 参考的工作
+1. SOLO
+   1. 在两步分割模型（作者分类为自顶向下的实例分割）类型中，主要参考了FCIS、Mask R-CNN、PANet、Mask Scoring R-CNN、HTC、TensorMask。
+   2. 在先嵌入再聚合的分割模型（作者分类为自底向上的实例分割）类型中，则主要参考了SGN、SSAP。
+   3. 直接分割模型中，作者引用了AdaptIS和PoloarMask。
